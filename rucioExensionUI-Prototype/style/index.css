@@ -1,0 +1,131 @@
+.list::-webkit-scrollbar {
+    -webkit-appearance: scrollbartrack-vertical;
+}    
+.side-panel-content-wrapper {
+    width: 100%;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.Accordion {
+    width: 90%;
+    margin: 2px 0;
+}
+
+.Accordion .AccordionTab {
+    width: 100%;
+    background: #eeeeee;
+    color: #333333;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.Accordion .AccordionTab:hover {
+    background: #333333;
+    color: #eeeeee;
+}
+
+.Accordion.active .AccordionTab {
+    background: #333333;
+    color: #eeeeee;
+}
+
+.Accordion .AccordionPanel {
+    width: 100%;
+    padding: 16px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+.Accordion .AccordionPanel p {
+    width: 100%;
+    margin: 4px 0;
+    font-size: 1.05rem;
+}
+
+.Accordion .AccordionPanel form {
+    margin: 16px;
+    font-size: 1.05rem;
+    color: #333333;
+}
+
+.Accordion .AccordionPanel form > * {
+    margin: 6px 0;
+}
+
+.Accordion .AccordionPanel form input[type=text], .Accordion .AccordionPanel form select {
+    width: 50%;
+    margin-left: 64px;
+    border: 1.5px solid #333333;
+    padding: 8px 12px;
+}
+
+.Accordion .AccordionPanel form input[type=radio] {
+    margin-left: 32px;
+    margin-right: 8px;
+}
+
+.Accordion .AccordionPanel button {
+    padding: 8px 24px;
+    font-size: 1.1rem;
+    color: #eeeeee;
+    background: #333333;
+    border: none;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border: 1.5px solid #cccccc;
+    margin-top: 28px;
+}
+
+table thead tr, table tfoot tr {
+    width: 100%;
+    border: none;
+    color: #333333;
+    background: #eeeeee;
+    font-weight: bold;
+}
+
+table tbody tr:nth-of-type(2n) {
+    background: #f8f8f8;
+}
+
+table td {
+    padding: 8px 0;
+    padding-left: 12px;
+    border: none;
+}
+
+table thead td {
+    border-bottom: 2px solid #333333;
+}
+
+table tfoot td {
+    border-top: 2px solid #333333;
+}
+
+.Summary {
+    width: 90%;
+    margin: 12px 0;
+    color: #333333;
+    font-size: 1.1rem;
+}
+
+.Summary p {
+    margin: 12px 0;
+    width: 100%;
+}
